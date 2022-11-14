@@ -1,0 +1,6 @@
+@import url(css/layouts/normalize.css);
+@import url(css/layouts/base.css);
+
+@import url(css/blocks/welcome.css);
+@import url(css/blocks/why.css);
+@import url(css/blocks/reviews.css);
