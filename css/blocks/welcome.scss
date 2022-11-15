@@ -1,13 +1,14 @@
 .wrapper {
   margin: 0 auto;
   width: 1110px;
+  position: relative;
 }
 
 .welcome-background {
   display: block;
   width: 1110px;
   height: 652px;
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
@@ -16,8 +17,8 @@
 }
 
 .welcome-content {
-  position: relative;
-  top: -662px;
+  position: absolute;
+  top: 0;
   left: 0;
   z-index: 100;
 }
