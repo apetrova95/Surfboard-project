@@ -2,12 +2,24 @@ $white: #FFFFFF;
 
 .form {
   background: #313131;
+  position: relative;
+}
+
+.form__image {
+  display: block;
+  width: 1110px;
+  height: 652px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background: url(../../image/back/cta.png) center center no-repeat;
 }
 
 .form__container {
-  display: flex;
-  flex-direction: column;
-  padding: 62px 7px 85px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .form__title {
@@ -139,7 +151,6 @@ $white: #FFFFFF;
   &__label {
     display: flex;
     align-items: center;
-    margin-right: 7px;
   }
 
   &__comment {

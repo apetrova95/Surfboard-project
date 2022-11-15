@@ -1,16 +1,24 @@
 .form {
   background: #313131;
+  position: relative;
+}
+
+.form__image {
+  display: block;
+  width: 1110px;
+  height: 652px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background: url(../../image/back/cta.png) center center no-repeat;
 }
 
 .form__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 62px 7px 85px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .form__title {
@@ -162,7 +170,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-right: 7px;
 }
 .addition__comment {
   margin-left: 10px;
