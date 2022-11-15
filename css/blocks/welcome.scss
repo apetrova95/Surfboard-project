@@ -125,17 +125,17 @@
     line-height: 18px;
 
     &--surf::before {
-      content: url(/image/icons/surf.png);
+      content: url(../../image/icons/surf.png);
       margin-right: 14px;
     }
 
     &--materials::before {
-      content: url(/image/icons/materials.png);
+      content: url(../../image/icons/materials.png);
       margin-right: 14px;
     }
 
     &--car::before {
-      content: url(/image/icons/car.png);
+      content: url(../../image/icons/car.png);
       margin-right: 14px;
     }
   }

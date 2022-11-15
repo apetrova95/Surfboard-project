@@ -146,15 +146,15 @@
   line-height: 18px;
 }
 .advantage__item--surf::before {
-  content: url(/image/icons/surf.png);
+  content: url(../../image/icons/surf.png);
   margin-right: 14px;
 }
 .advantage__item--materials::before {
-  content: url(/image/icons/materials.png);
+  content: url(../../image/icons/materials.png);
   margin-right: 14px;
 }
 .advantage__item--car::before {
-  content: url(/image/icons/car.png);
+  content: url(../../image/icons/car.png);
   margin-right: 14px;
 }
 
