@@ -1,9 +1,6 @@
 .benefits__container {
   color: #292929;
   padding: 107px 0 114px;
-}
-
-.benefits {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
