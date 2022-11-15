@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="1110px, initial-scale=1.0">
+  <link rel="stylesheet" href="./main.css">
+  <title>Form</title>
+</head>
+
+<body>
+
+  <section class="form">
+
+    <div class="container form__container">
+      <h2 class="form__title">Закажите доску</h2>
+
+      <div class="columns">
+        <div class="form__col">
+          <label class="form__row">
+            <p class="form__comment">Имя</p>
+            <input type="text" class="form__input">
+          </label>
+          <label class="form__row">
+            <p class="form__comment">Телефон</p>
+            <input type="text" class="form__input">
+          </label>
+          <label class="form__row">
+            <p class="form__comment">Улица</p>
+            <input type="text" class="form__input-long">
+          </label>
+          <label class="form__row">
+            <p class="form__comment">Дом</p>
+            <input type="text" class="form__input-short">
+          </label>
+          <label class="form__row">
+            <p class="form__comment">Корпус</p>
+            <input type="text" class="form__input-short">
+          </label>
+          <label class="form__row">
+            <p class="form__comment">Квартира</p>
+            <input type="text" class="form__input-short">
+          </label>
+          <label class="form__row">
+            <p class="form__comment">Этаж</p>
+            <input type="text" class="form__input-short">
+          </label>
+        </div>
+        <div class="form__col form__col--right">
+          <label class="form__row">
+            <p class="form__comment">Комментарий</p>
+            <textarea class="form__input form__input--texterea"></textarea>
+          </label>
+
+          <div class="addition">
+            <label class="addition__label">
+              <input type="radio" class="addition__radio" name="pay">
+              <div class="addition__circle"></div>
+              <h3 class="addition__comment">Оплата наличными</h3>
+            </label>
+            <label class="addition__label">
+              <input type="radio" class="addition__radio" name="pay">
+              <div class="addition__circle"></div>
+              <h3 class="addition__comment">Оплата картой</h3>
+            </label>
+            <label class="addition__label">
+              <input type="checkbox" class="addition__checkbox">
+              <div class="addition__square"></div>
+              <h3 class="addition__comment">Не перезванивать</h3>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form__btns">
+        <button type="submit" class="btn">Заказать</button>
+        <button type="reset" class="clean">Очистить</button>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
